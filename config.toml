@@ -1,0 +1,301 @@
+baseURL = ""
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "hugo-devresume-theme"
+enableGitInfo = true
+
+
+[params]
+    author = "hannahluebbering"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+    primaryColor = "#ec5b95"
+    textPrimaryColor = "#292929"
+    
+
+
+    [params.profile]
+        enable = true
+        name = "Hannah Luebbering"
+        tagline = "Applied Mathematics and Computer Science"
+        avatar = "avatar.png"
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "North Carolina"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "913 449 2378"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "luebhr@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "www.hannah-luebbering.com"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        [[params.skills.list.items]]
+        details = "Web Design using HTML and CSS"
+        [[params.skills.list.items]]
+        details = "Strong math skills"
+        [[params.skills.list.items]]
+        details = "Research and Technology"
+        [[params.skills.list.items]]
+        details = "Data Processing"
+        [[params.skills.list.items]]
+        details = "Complex problem solving skills"
+        [[params.skills.list.items]]
+        details = "Teamwork"
+
+
+        [[params.skills.list]]
+        title = "Programming Languages"
+        [[params.skills.list.items]]
+        details = "R"
+        [[params.skills.list.items]]
+        details = "MatLab"
+        [[params.skills.list.items]]
+        details = "JavaScript"
+        [[params.skills.list.items]]
+        details = "LaTex"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "BS Applied Mathematics"
+        university = "Wake Forest University"
+        dates = "2017 - 2021"
+        [[params.education.list]]
+        degree = "BSc Maths and Physics"
+        university = "Imperial College London"
+        dates = "2007 - 2010"
+
+
+
+
+
+
+
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = false
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Native"
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Running"
+        [[params.interests.list]]
+        name = "Skiing"
+        [[params.interests.list]]
+        name = "Web Design"
+        [[params.interests.list]]
+        name = "Architecture"
+        [[params.interests.list]]
+        name = "Photography"
+        
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "Applied Mathematics and Computer Science student at Wake Forest University seeks a career in software computing, data science, and related technologies. Motivated to learn, grow and excel in technology."
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Association for Women in Mathematics Executive Committee"
+        dates = "2020 - Present"
+        company = "Wake Forest University"
+        [[params.experience.list.items]]
+        details = "Led and participated in various programs and workshops to mentor students in math and science"
+        
+
+        [[params.experience.list]]
+        title = "Data Science Pedagogy Research"
+        dates = "2020 - Present"
+        company = "Wake Forest University"
+        [[params.experience.list.items]]
+        details = "Studied learn-R package and built various tutorials published on GitHub"
+        [[params.experience.list.items]]
+        details = "Tutorials explained various R packages such as tidy data, types of data frames, manipulating data frames in R using tidyverse, and more"
+        [[params.experience.list.items]]
+        details = "Worked with Dr. McGowan, Professor in Statistics at Wake Forest University"
+        
+        
+        [[params.experience.list]]
+        title = "New South Wales Health Internship/Research Project Assistant"
+        dates = "2019 - 2020"
+        company = "Westmead Institute For Medical Research Sydney, New South Wales"
+        [[params.experience.list.items]]
+        details = "Completed projects with various industries involving preventative health, chronic illness, immersive technology, precision medicine, open data, and more"
+        [[params.experience.list.items]]
+        details = "Conducted thorough research using diverse resources to assist professional staff with project tasks"
+
+        [[params.experience.list]]
+        title = "Nanotechnology and Chemistry Research"
+        dates = "2018 - 2020"
+        company = "Wake Forest University"
+        [[params.experience.list.items]]
+        details = "Conducted experiments and analyzed samples using UV-VIS spectroscopy, confocal microscopy, and Agilent software"
+        [[params.experience.list.items]]
+        details = "Tracked experimental results and analyzed data using MatLab and Excel"
+
+        [[params.experience.list]]
+        title = "Concussion Research Assistant"
+        dates = "2018 - 2020"
+        company = "Wake Forest University"
+        [[params.experience.list.items]]
+        details = "Monitored soccer players, outfitted players with mouthpiece software, collected data, and analyzed data for study of head impact in sports and injury biomechanics"
+        
+        [[params.experience.list]]
+        title = "Clinical Internship/Shadowing Program"
+        dates = "2018 - 2019"
+        company = "Wake Forest Baptist Health"
+        [[params.experience.list.items]]
+        details = "Shadowed Dr. Talbott, an anesthesiologist at Wake Forest Baptist Health"
+        [[params.experience.list.items]]
+        details = "Gained high quality clinical experience and increased understanding of the practice of medicine"
+
+
+        
+
+
+
+
+
+
+
+
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Project Lorem Ipsum"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.projects.list]]
+        title = "Project Sed Fringilla"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+        [[params.projects.list]]
+        title = "Project Praesent"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/username"
+        title = "username"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/username"
+        title = "username"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/username"
+        title = "@username"
+
+
