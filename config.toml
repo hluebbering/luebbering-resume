@@ -21,9 +21,6 @@ enableGitInfo = true
 
 
 
-
-
-
     [params.contact]
         enable = true
         location = "North Carolina"
@@ -40,10 +37,6 @@ enableGitInfo = true
         icon = "fas fa-globe"
         url = "#"
         text = "www.hannah-luebbering.com"
-
-
-
-
 
 
 
@@ -78,11 +71,6 @@ enableGitInfo = true
 
 
 
-
-
-
-
-
     [params.education]
         enable = true
 
@@ -97,14 +85,8 @@ enableGitInfo = true
 
 
 
-
-
-
-
-
     [params.awards]
         enable = false
-
         [[params.awards.list]]
         name = "Award Lorem Ipsum"
         body = "Microsoft lorem ipsum"
@@ -116,25 +98,15 @@ enableGitInfo = true
 
 
 
-
-
-
-
-
     [params.languages]
         enable = false
-
         [[params.languages.list]]
         name = "English"
         level = "Native"
 
 
-
-
-
     [params.interests]
         enable = true
-
         [[params.interests.list]]
         name = "Running"
         [[params.interests.list]]
@@ -148,18 +120,9 @@ enableGitInfo = true
         
 
 
-
-
-
-
-
-
     [params.summary]
         enable = true
         text = "Applied Mathematics and Computer Science student at Wake Forest University seeks a career in software computing, data science, and related technologies. Motivated to learn, grow and excel in technology."
-
-
-
 
 
 
@@ -223,64 +186,49 @@ enableGitInfo = true
         details = "Gained high quality clinical experience and increased understanding of the practice of medicine"
 
 
-        
-
-
-
-
-
-
-
+    
 
 
 
     [params.projects]
         enable = true
+        
+        [[params.projects.list]]
+        title = "Kappa Kappa Gamma Sorority"
+        tagline = "Recruitment counselor and advisor for recruits and freshmen"
 
         [[params.projects.list]]
-        title = "Project Lorem Ipsum"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+        title = "Sydney: Math and Computer Science Abroad"
+        tagline = "Attended University of Sydney for five months to study advanced mathematics and computer science courses"
 
         [[params.projects.list]]
-        title = "Project Sed Fringilla"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
-
+        title = "London: Organic Chemistry II Abroad"
+        tagline = "Traveled to London with Wake Forest professor and students to study Organic Chemistry II"
+        
         [[params.projects.list]]
-        title = "Project Praesent"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+        title = "Children's Mercy Hospital Volunteer"
+        tagline = "Volunteered at the Children's Mercy Hospital as a Pathfinder. Helped patients and families navigate the hospital and assisted nurses in the sports medicine clinic."
+        
+        [[params.projects.list]]
+        title = "UCLA Student Volunteer"
+        tagline = "Volunteered at UCLA and around Los Angeles and earned 45 of community service hours. Provided meals and other assistance to families, schools, and underprivileged residents of Los Angeles."
 
-
-
-
-
-
-
-
-
-
+        
     [params.information]
         enable = true
-
+        
         [[params.information.list]]
-        title = "Papers"
+        
         [[params.information.list.items]]
-        details = "2018 · Lorem Ipsum"
+        details = "Association for Women in Mathematics"
         [[params.information.list.items]]
-        details = "2016 · Sed Fringilla"
-
-        [[params.information.list]]
-        title = "Interests"
-        details = "Climbing, Snowboarding, Photography, Travelling"
-
-
-
-
-
-
-
+        details = "Kappa Kappa Gamma Sorority"
+        [[params.information.list.items]]
+        details = "Women in Computer Science"
+        [[params.information.list.items]]
+        details = "Kansas City Running Club"
+        
+    
 
     [params.social]
         enable = true

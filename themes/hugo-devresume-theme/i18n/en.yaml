@@ -5,12 +5,12 @@
 - id: experiences
   translation: Work Experience
 - id: information
-  translation: Information
+  translation: Affiliations
 - id: interests
   translation: Interests
 - id: languages
   translation: Languages
 - id: projects
-  translation: Projects
+  translation: Accomplishments and Service
 - id: skills
   translation: Skills
