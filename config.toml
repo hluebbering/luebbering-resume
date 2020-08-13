@@ -235,15 +235,15 @@ enableGitInfo = true
 
         [[params.social.list]]
         icon = "fab fa-github-square"
-        url = "//github.com/username"
-        title = "username"
+        url = "//github.com/hluebbering"
+        title = "hluebbering"
         [[params.social.list]]
         icon = "fab fa-linkedin"
-        url = "//linkedin.com/in/username"
-        title = "username"
+        url = "//www.linkedin.com/in/hannah-luebbering-99609818a/"
+        title = "hannah-luebbering"
         [[params.social.list]]
         icon = "fab fa-twitter-square"
-        url = "//twitter.com/username"
-        title = "@username"
+        url = "//vsco.co/hannahluebbering/gallery"
+        title = "@hannahluebbering"
 
 
