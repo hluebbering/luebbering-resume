@@ -239,10 +239,6 @@ enableGitInfo = true
         url = "//github.com/hluebbering"
         title = "hluebbering"
         [[params.social.list]]
-        icon = "fas fa-bookmark"
-        url = "//dmds.lucymcgowan.com/people/"
-        title = "hluebbering"
-        [[params.social.list]]
         icon = "fab fa-linkedin"
         url = "//www.linkedin.com/in/hannah-luebbering-99609818a/"
         title = "hannah-luebbering"
