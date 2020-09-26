@@ -65,7 +65,9 @@ enableGitInfo = true
         [[params.skills.list.items]]
         details = "MatLab"
         [[params.skills.list.items]]
-        details = "JavaScript"
+        details = "Python"
+        [[params.skills.list.items]]
+        details = "Java"
         [[params.skills.list.items]]
         details = "LaTex"
 
