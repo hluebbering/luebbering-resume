@@ -1,6 +1,6 @@
 baseURL = ""
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Hannah Luebbering"
 theme = "hugo-devresume-theme"
 enableGitInfo = true
 
@@ -79,12 +79,10 @@ enableGitInfo = true
         university = "Wake Forest University"
         dates = "2017 - 2021"
         [[params.education.list]]
-        degree = "BSc Maths and Physics"
-        university = "Imperial College London"
-        dates = "2007 - 2010"
-
-
-
+        degree = "Blue Valley North High School"
+        university = "Varsity Cross Country, Cross Country Team Captain, Varsity Track, National Honor Society, Science National Honor Society"
+        dates = "2013 - 2017"
+        
     [params.awards]
         enable = false
         [[params.awards.list]]
