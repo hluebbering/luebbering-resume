@@ -26,17 +26,17 @@ enableGitInfo = true
         location = "North Carolina"
 
         [[params.contact.list]]
-        icon = "fas fa-phone-square"
-        url = "tel:#"
-        text = "913 449 2378"
-        [[params.contact.list]]
         icon = "fas fa-envelope-square"
         url = "mailto:#"
         text = "luebhr@gmail.com"
         [[params.contact.list]]
         icon = "fas fa-globe"
-        url = "#"
-        text = "www.hannah-luebbering.com"
+        url = "//hannah-luebbering.com"
+        text = "Homepage"
+        [[params.contact.list]]
+        icon = "fas fa-laptop-code"
+        url = "//dmds.lucymcgowan.com/people/"
+        text = "DM Data Science Lab"
 
 
 
@@ -142,11 +142,12 @@ enableGitInfo = true
         dates = "2020 - Present"
         company = "Wake Forest University"
         [[params.experience.list.items]]
+        details = "Worked with Dr. McGowan, Professor in Statistics at Wake Forest University"
+        [[params.experience.list.items]]
         details = "Studied learn-R package and built various tutorials published on GitHub"
         [[params.experience.list.items]]
         details = "Tutorials explained various R packages such as tidy data, types of data frames, manipulating data frames in R using tidyverse, and more"
-        [[params.experience.list.items]]
-        details = "Worked with Dr. McGowan, Professor in Statistics at Wake Forest University"
+    
         
         
         [[params.experience.list]]
@@ -162,6 +163,8 @@ enableGitInfo = true
         title = "Nanotechnology and Chemistry Research"
         dates = "2018 - 2020"
         company = "Wake Forest University"
+        [[params.experience.list.items]]
+        details = "Worked with Dr. Ghadiri in the Chemistry Department."
         [[params.experience.list.items]]
         details = "Conducted experiments and analyzed samples using UV-VIS spectroscopy, confocal microscopy, and Agilent software"
         [[params.experience.list.items]]
@@ -236,11 +239,15 @@ enableGitInfo = true
         url = "//github.com/hluebbering"
         title = "hluebbering"
         [[params.social.list]]
+        icon = "fas fa-bookmark"
+        url = "//dmds.lucymcgowan.com/people/"
+        title = "hluebbering"
+        [[params.social.list]]
         icon = "fab fa-linkedin"
         url = "//www.linkedin.com/in/hannah-luebbering-99609818a/"
         title = "hannah-luebbering"
         [[params.social.list]]
-        icon = "fab fa-twitter-square"
+        icon = "fas fa-camera"
         url = "//vsco.co/hannahluebbering/gallery"
         title = "@hannahluebbering"
 
