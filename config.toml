@@ -47,15 +47,15 @@ enableGitInfo = true
         [[params.skills.list.items]]
         details = "Web Design using HTML and CSS"
         [[params.skills.list.items]]
-        details = "Strong math skills"
+        details = "Mathematical Modeling"
         [[params.skills.list.items]]
         details = "Research and Technology"
         [[params.skills.list.items]]
-        details = "Data Processing"
+        details = "Data Science"
         [[params.skills.list.items]]
-        details = "Complex problem solving skills"
+        details = "Complex Problem Solving"
         [[params.skills.list.items]]
-        details = "Teamwork"
+        details = "Technical Writing"
 
 
         [[params.skills.list]]
@@ -77,27 +77,25 @@ enableGitInfo = true
         enable = true
 
         [[params.education.list]]
-        degree = "BS Applied Mathematics"
+        degree = "BS in Applied Mathematics, Minor in Computer Science"
         university = "Wake Forest University"
         dates = "2017 - 2021"
+        
+        [[params.education.list]]
+        degree = "Study Abroad, Math and Computer Science"
+        university = "University of Sydney"
+        dates = "2019"
+
+        [[params.education.list]]
+        degree = "Study Abroad, Organic Chemistry II"
+        university = "Queen Mary University of London"
+        dates = "2018"
+        
         [[params.education.list]]
         degree = "Blue Valley North High School"
-        university = "Varsity Cross Country, Cross Country Team Captain, Varsity Track, National Honor Society, Science National Honor Society"
+        details = "Varsity Cross Country and Team Captain, Varsity Track, National Honor Society, Science National Honor Society"
         dates = "2013 - 2017"
-        
-    [params.awards]
-        enable = false
-        [[params.awards.list]]
-        name = "Award Lorem Ipsum"
-        body = "Microsoft lorem ipsum"
-        date = "2019"
-        [[params.awards.list]]
-        name = "Award Donec Sodales"
-        body = "Oracle Aenean"
-        date = "2017"
-
-
-
+  
     [params.languages]
         enable = false
         [[params.languages.list]]
@@ -106,7 +104,7 @@ enableGitInfo = true
 
 
     [params.interests]
-        enable = true
+        enable = false
         [[params.interests.list]]
         name = "Running"
         [[params.interests.list]]
@@ -117,6 +115,18 @@ enableGitInfo = true
         name = "Architecture"
         [[params.interests.list]]
         name = "Photography"
+    
+    [params.awards]
+        enable = true
+        [[params.awards.list]]
+        name = "IT Automation with Python"
+        body = "Google Professional Certificate"
+        date = "2020"
+        [[params.awards.list]]
+        name = "Intro to Machine Learning"
+        body = "Kaggle"
+        date = "2020"    
+        
         
 
 
@@ -127,110 +137,113 @@ enableGitInfo = true
 
 
 
-
     [params.experience]
         enable = true
-
-        [[params.experience.list]]
-        title = "Association for Women in Mathematics Executive Committee"
-        dates = "2020 - Present"
-        company = "Wake Forest University"
-        [[params.experience.list.items]]
-        details = "Led and participated in various programs and workshops to mentor students in math and science"
-        
 
         [[params.experience.list]]
         title = "Data Science Pedagogy Research"
         dates = "2020 - Present"
         company = "Wake Forest University"
         [[params.experience.list.items]]
-        details = "Worked with Dr. McGowan, Professor in Statistics at Wake Forest University"
+        details = "Worked with Dr. McGowan, Professor in Statistics at Wake Forest University. Studied learn-R package and built various tutorials published on GitHub."
         [[params.experience.list.items]]
-        details = "Studied learn-R package and built various tutorials published on GitHub"
-        [[params.experience.list.items]]
-        details = "Tutorials explained various R packages such as tidy data, types of data frames, manipulating data frames in R using tidyverse, and more"
+        details = "Tutorials explained various R packages such as tidy data, types of data frames, manipulating data frames in R using tidyverse, and more."
     
         
         
         [[params.experience.list]]
         title = "New South Wales Health Internship/Research Project Assistant"
-        dates = "2019 - 2020"
+        dates = "2019"
         company = "Westmead Institute For Medical Research Sydney, New South Wales"
         [[params.experience.list.items]]
-        details = "Completed projects with various industries involving preventative health, chronic illness, immersive technology, precision medicine, open data, and more"
+        details = "Completed projects with various industries involving preventative health, chronic illness, immersive technology, precision medicine, open data, and more."
         [[params.experience.list.items]]
-        details = "Conducted thorough research using diverse resources to assist professional staff with project tasks"
+        details = "Conducted thorough research using diverse resources to assist professional staff with project tasks."
 
         [[params.experience.list]]
         title = "Nanotechnology and Chemistry Research"
-        dates = "2018 - 2020"
+        dates = "2018 - 2019"
         company = "Wake Forest University"
         [[params.experience.list.items]]
         details = "Worked with Dr. Ghadiri in the Chemistry Department."
         [[params.experience.list.items]]
-        details = "Conducted experiments and analyzed samples using UV-VIS spectroscopy, confocal microscopy, and Agilent software"
+        details = "Conducted experiments and analyzed samples using UV-VIS spectroscopy, confocal microscopy, and Agilent software."
         [[params.experience.list.items]]
-        details = "Tracked experimental results and analyzed data using MatLab and Excel"
+        details = "Tracked experimental results and analyzed data using MatLab and Excel."
 
         [[params.experience.list]]
         title = "Concussion Research Assistant"
-        dates = "2018 - 2020"
-        company = "Wake Forest University"
+        dates = "2018"
+        company = "Wake Forest Innovation Quarter"
         [[params.experience.list.items]]
-        details = "Monitored soccer players, outfitted players with mouthpiece software, collected data, and analyzed data for study of head impact in sports and injury biomechanics"
+        details = "Monitored soccer players, outfitted players with mouthpiece software, collected data, and analyzed data for study of head impact in sports and injury biomechanics."
         
         [[params.experience.list]]
-        title = "Clinical Internship/Shadowing Program"
-        dates = "2018 - 2019"
+        title = "Clinical Internship and Shadowing Program"
+        dates = "2018"
         company = "Wake Forest Baptist Health"
         [[params.experience.list.items]]
-        details = "Shadowed Dr. Talbott, an anesthesiologist at Wake Forest Baptist Health"
+        details = "Shadowed Dr. Talbott, an anesthesiologist at Wake Forest Baptist Health. Gained high quality clinical experience and increased understanding of the practice of medicine."
+        
+        
+        [[params.experience.list]]
+        title = "Orthopaedic Surgery Shadow"
+        dates = "2017"
+        company = "KC Orthopaedic Institute"
         [[params.experience.list.items]]
-        details = "Gained high quality clinical experience and increased understanding of the practice of medicine"
-
-
-    
-
-
+        details = "Shadowed several orthopaedic doctors during surgeries and patient office visits."
+        [[params.experience.list.items]]
+        details = "Shadowed Dr. Steven Joyce for knee arthroscopy and rotator cuff tear repair surgeries, Dr. Dan Gurba for total knee replacements, Dr. Kirk McCullough for ankle reconstruction surgeries, and Dr. JP Halloran for ACL repairs and ankle reconstructions."
 
     [params.projects]
         enable = true
+        [[params.projects.list]]
+        title = "Intensive Care Unit Volunteer"
+        company = "Wake Forest Baptist Health"
+        dates = "2017 - 2018"
+        [[params.projects.list.items]]
+        details = "Volunteered at the Wake Forest Baptist Medical Center in the Intensive Care Unit. Worked at the front desk, assisted nurses, helped patients, and answered phone calls."
         
         [[params.projects.list]]
-        title = "Kappa Kappa Gamma Sorority"
-        tagline = "Recruitment counselor and advisor for recruits and freshmen"
-
-        [[params.projects.list]]
-        title = "Sydney: Math and Computer Science Abroad"
-        tagline = "Attended University of Sydney for five months to study advanced mathematics and computer science courses"
-
-        [[params.projects.list]]
-        title = "London: Organic Chemistry II Abroad"
-        tagline = "Traveled to London with Wake Forest professor and students to study Organic Chemistry II"
-        
-        [[params.projects.list]]
-        title = "Children's Mercy Hospital Volunteer"
-        tagline = "Volunteered at the Children's Mercy Hospital as a Pathfinder. Helped patients and families navigate the hospital and assisted nurses in the sports medicine clinic."
+        title = "Children's Mercy Hospital Volunteer Internship"
+        company = "Children's Mercy Hospital"
+        dates = "2015 - 2016"
+        [[params.projects.list.items]]
+        details = "Volunteered at the Children's Mercy Hospital as a Pathfinder. Helped patients and families navigate the hospital and assisted nurses in the sports medicine clinic."
         
         [[params.projects.list]]
         title = "UCLA Student Volunteer"
-        tagline = "Volunteered at UCLA and around Los Angeles and earned 45 of community service hours. Provided meals and other assistance to families, schools, and underprivileged residents of Los Angeles."
+        company = "University of California, Los Angeles"
+        dates = "2015"
+        [[params.projects.list.items]]
+        details = "Volunteered around Los Angeles and earned 45 of community service hours. Provided meals and other assistance to families, schools, and underprivileged residents of Los Angeles."
 
         
     [params.information]
         enable = true
         
         [[params.information.list]]
+        title = "Association for Women in Mathematics Executive Committee"
+        dates = "2019 - 2021"
+        company = "Wake Forest University"
+        details = "Led and participated in various programs and workshops to mentor students in math and science."
         
-        [[params.information.list.items]]
-        details = "Association for Women in Mathematics"
-        [[params.information.list.items]]
-        details = "Kappa Kappa Gamma Sorority"
-        [[params.information.list.items]]
-        details = "Women in Computer Science"
-        [[params.information.list.items]]
-        details = "Kansas City Running Club"
+        [[params.information.list]]
+        title = "Women in Computer Science"
+        dates = "2018 - 2021"
+        company = "Wake Forest University"
         
+        [[params.information.list]]
+        title = "Kappa Kappa Gamma Sorority"
+        dates = "2018 - 2021"
+        company = "Wake Forest University"
+        
+        [[params.information.list]]
+        title = "Kansas City Running Club"
+        dates = "2015 - 2019"
+        company = "Kansas City"
+    
+    
     
 
     [params.social]

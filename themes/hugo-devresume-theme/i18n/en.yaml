@@ -1,5 +1,5 @@
 - id: awards
-  translation: Awards
+  translation: Certificates
 - id: education
   translation: Education
 - id: experiences
@@ -11,6 +11,6 @@
 - id: languages
   translation: Languages
 - id: projects
-  translation: Accomplishments and Service
+  translation: Volunteer Positions
 - id: skills
   translation: Skills
