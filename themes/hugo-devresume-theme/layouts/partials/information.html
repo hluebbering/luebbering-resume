@@ -5,17 +5,25 @@
 
                                 {{ range .Site.Params.information.list }}
                                 <div class="item mb-3">
+                                  
                                     <div class="item-heading row align-items-center mb-2">
                                         <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">{{ .title }}</h4>
                                       
+                                    
+                                    
+                                    
                                     </div>
                                     
                                     
+                                    
+                                    
                                     <div class="item-content">
-                                      <div class="item-meta text-muted">{{ .company }} | {{ .dates }}</div>
+                                      
+                                      
+                                      <div class="resume-degree-time text-muted">{{ .company }} | {{ .dates }}</div>
                                       <div class="item-content">
                                         <p>{{ with .details }}{{ . | markdownify }}{{ end }}</p></div>
-                                      
+                                    
                                         <ul class="resume-list">
                                             {{ range .items }}
                                             <li>{{ with .details }}{{ . | markdownify }}{{ end }}</li>

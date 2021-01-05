@@ -4,14 +4,11 @@ title = "Hannah Luebbering"
 theme = "hugo-devresume-theme"
 enableGitInfo = true
 
-
 [params]
     author = "hannahluebbering"
     description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
     primaryColor = "#ec5b95"
     textPrimaryColor = "#292929"
-    
-
 
     [params.profile]
         enable = true
@@ -19,30 +16,25 @@ enableGitInfo = true
         tagline = "Applied Mathematics and Computer Science"
         avatar = "avatar.png"
 
-
-
     [params.contact]
         enable = true
         location = "North Carolina"
-
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
         url = "mailto:#"
         text = "luebhr@gmail.com"
         [[params.contact.list]]
         icon = "fas fa-globe"
-        url = "//hannah-luebbering.com"
+        url = "https://www.hannah-luebbering.com"
         text = "Homepage"
         [[params.contact.list]]
         icon = "fas fa-laptop-code"
-        url = "//dmds.lucymcgowan.com/people/"
+        url = "https://dmds.lucymcgowan.com/authors/hannah-luebbering/"
         text = "DM Data Science Lab"
-
 
 
     [params.skills]
         enable = true
-
         [[params.skills.list]]
         [[params.skills.list.items]]
         details = "Web Design using HTML and CSS"
@@ -57,9 +49,8 @@ enableGitInfo = true
         [[params.skills.list.items]]
         details = "Technical Writing"
 
-
-        [[params.skills.list]]
-        title = "Programming Languages"
+        #[[params.skills.list]]
+        #title = "Programming Languages"
         [[params.skills.list.items]]
         details = "R"
         [[params.skills.list.items]]
@@ -70,31 +61,48 @@ enableGitInfo = true
         details = "Java"
         [[params.skills.list.items]]
         details = "LaTex"
-
-
+        
 
     [params.education]
         enable = true
-
         [[params.education.list]]
         degree = "BS in Applied Mathematics, Minor in Computer Science"
         university = "Wake Forest University"
-        dates = "2017 - 2021"
-        
-        [[params.education.list]]
-        degree = "Study Abroad, Math and Computer Science"
-        university = "University of Sydney"
-        dates = "2019"
+        location = "Winston Salem, NC | 2017 - 2021"
+        gpa = "GPA: 3.471"
+        [[params.education.list.items]]
+        details = "Association for Women in Mathematics"
+        [[params.education.list.items]]
+        details = "Women in Computer Science"
+        [[params.education.list.items]]
+        details = "Kappa Kappa Gamma Sorority"
+        #[[params.education.list.items]]
+        #details= "Excelled in machine learning and data science coursework.
 
         [[params.education.list]]
-        degree = "Study Abroad, Organic Chemistry II"
-        university = "Queen Mary University of London"
-        dates = "2018"
+        degree = "Study Abroad, Mathematics and Computer Science"
+        university = "University of Sydney"
+        location = "Sydney, Australia | 2019"
+        [[params.education.list.items]]
+        details = "SUMS, Mathematics Society"
+
+        [[params.education.list]]
+        degree = "Study Abroad, Organic Chemistry"
+        university = "Queen Mary University"
+        dates = "London, England | 2018"
         
         [[params.education.list]]
-        degree = "Blue Valley North High School"
-        details = "Varsity Cross Country and Team Captain, Varsity Track, National Honor Society, Science National Honor Society"
-        dates = "2013 - 2017"
+        university = "Blue Valley North"
+        degree = "High School Diploma"
+        dates = "Overland Park, KS | 2013 - 2017"
+        [[params.education.list.items]]
+        details = "Varsity Cross Country and Track"
+        [[params.education.list.items]]
+        details = "Cross Country Team Captain"
+        [[params.education.list.items]]
+        details = "National Honor Society"
+        [[params.education.list.items]]
+        details = "Science National Honor Society"
   
     [params.languages]
         enable = false
@@ -104,52 +112,47 @@ enableGitInfo = true
 
 
     [params.interests]
-        enable = false
+        enable = true
         [[params.interests.list]]
         name = "Running"
         [[params.interests.list]]
-        name = "Skiing"
+        name = "Skiing and hiking in Telluride"
         [[params.interests.list]]
         name = "Web Design"
         [[params.interests.list]]
         name = "Architecture"
         [[params.interests.list]]
         name = "Photography"
+
     
     [params.awards]
         enable = true
         [[params.awards.list]]
         name = "IT Automation with Python"
         body = "Google Professional Certificate"
-        date = "2020"
         [[params.awards.list]]
         name = "Intro to Machine Learning"
-        body = "Kaggle"
-        date = "2020"    
-        
-        
+        body = "Kaggle Learning"
 
-
+        
     [params.summary]
         enable = true
-        text = "Applied Mathematics and Computer Science student at Wake Forest University seeks a career in software computing, data science, and related technologies. Motivated to learn, grow and excel in technology."
-
-
+        text = "Applied Mathematics and Computer Science student at Wake Forest University seeking a full or part-time position in advance of attending graduate school. Motivated to learn, grow, and excel in technology. Proven success working within fast-paced, collaborative settings."
 
 
     [params.experience]
         enable = true
-
         [[params.experience.list]]
         title = "Data Science Pedagogy Research"
         dates = "2020 - Present"
         company = "Wake Forest University"
         [[params.experience.list.items]]
-        details = "Worked with Dr. McGowan, Professor in Statistics at Wake Forest University. Studied learn-R package and built various tutorials published on GitHub."
+        details = "Worked with Dr. McGowan in the Department of Mathematics & Statistics at Wake Forest University."
+        [[params.experience.list.items]]
+        details = "Studied learn-R package and built various tutorials published on GitHub."
         [[params.experience.list.items]]
         details = "Tutorials explained various R packages such as tidy data, types of data frames, manipulating data frames in R using tidyverse, and more."
     
-        
         
         [[params.experience.list]]
         title = "New South Wales Health Internship/Research Project Assistant"
@@ -165,7 +168,7 @@ enableGitInfo = true
         dates = "2018 - 2019"
         company = "Wake Forest University"
         [[params.experience.list.items]]
-        details = "Worked with Dr. Ghadiri in the Chemistry Department."
+        details = "Worked with Dr. Ghadiri in the Department of Chemistry at Wake Forest University."
         [[params.experience.list.items]]
         details = "Conducted experiments and analyzed samples using UV-VIS spectroscopy, confocal microscopy, and Agilent software."
         [[params.experience.list.items]]
@@ -183,8 +186,9 @@ enableGitInfo = true
         dates = "2018"
         company = "Wake Forest Baptist Health"
         [[params.experience.list.items]]
-        details = "Shadowed Dr. Talbott, an anesthesiologist at Wake Forest Baptist Health. Gained high quality clinical experience and increased understanding of the practice of medicine."
-        
+        details = "Shadowed Dr. Talbott, an anesthesiologist at Wake Forest Baptist Health."
+        [[params.experience.list.items]]
+        details = "Gained high quality clinical experience and increased understanding of the practice of medicine."
         
         [[params.experience.list]]
         title = "Orthopaedic Surgery Shadow"
@@ -195,6 +199,7 @@ enableGitInfo = true
         [[params.experience.list.items]]
         details = "Shadowed Dr. Steven Joyce for knee arthroscopy and rotator cuff tear repair surgeries, Dr. Dan Gurba for total knee replacements, Dr. Kirk McCullough for ankle reconstruction surgeries, and Dr. JP Halloran for ACL repairs and ankle reconstructions."
 
+
     [params.projects]
         enable = true
         [[params.projects.list]]
@@ -202,53 +207,57 @@ enableGitInfo = true
         company = "Wake Forest Baptist Health"
         dates = "2017 - 2018"
         [[params.projects.list.items]]
-        details = "Volunteered at the Wake Forest Baptist Medical Center in the Intensive Care Unit. Worked at the front desk, assisted nurses, helped patients, and answered phone calls."
+        details = "Volunteered at the Wake Forest Baptist Medical Center in the Intensive Care Unit." 
+        [[params.projects.list.items]]
+        details = "Worked at the front desk, assisted nurses, helped patients, and answered phone calls."
         
         [[params.projects.list]]
         title = "Children's Mercy Hospital Volunteer Internship"
         company = "Children's Mercy Hospital"
         dates = "2015 - 2016"
         [[params.projects.list.items]]
-        details = "Volunteered at the Children's Mercy Hospital as a Pathfinder. Helped patients and families navigate the hospital and assisted nurses in the sports medicine clinic."
+        details = "Volunteered at the Children's Mercy Hospital as a Pathfinder."
+        [[params.projects.list.items]]
+        details = "Helped patients and families navigate the hospital and assisted nurses in the sports medicine clinic."
         
         [[params.projects.list]]
         title = "UCLA Student Volunteer"
         company = "University of California, Los Angeles"
         dates = "2015"
         [[params.projects.list.items]]
-        details = "Volunteered around Los Angeles and earned 45 of community service hours. Provided meals and other assistance to families, schools, and underprivileged residents of Los Angeles."
+        details = "Volunteered around Los Angeles and earned 45 community service hours." 
+        [[params.projects.list.items]]
+        details = "Provided meals and other assistance to families, schools, and underprivileged residents of Los Angeles."
 
-        
+       
     [params.information]
         enable = true
-        
         [[params.information.list]]
         title = "Association for Women in Mathematics Executive Committee"
         dates = "2019 - 2021"
         company = "Wake Forest University"
+        [[params.information.list.items]]
         details = "Led and participated in various programs and workshops to mentor students in math and science."
         
-        [[params.information.list]]
-        title = "Women in Computer Science"
-        dates = "2018 - 2021"
-        company = "Wake Forest University"
+      
+        #[[params.information.list]]
+        #title = "Women in Computer Science"
+        #dates = "2018 - 2021"
+        #company = "Wake Forest University"
         
-        [[params.information.list]]
-        title = "Kappa Kappa Gamma Sorority"
-        dates = "2018 - 2021"
-        company = "Wake Forest University"
+        #[[params.information.list]]
+        #title = "Kappa Kappa Gamma Sorority"
+        #dates = "2018 - 2021"
+        #company = "Wake Forest University"
         
-        [[params.information.list]]
-        title = "Kansas City Running Club"
-        dates = "2015 - 2019"
-        company = "Kansas City"
+        #[[params.information.list]]
+        #title = "Kansas City Running Club"
+        #dates = "2015 - 2019"
+        #company = "Kansas City, MO"
     
-    
-    
-
+ 
     [params.social]
         enable = true
-
         [[params.social.list]]
         icon = "fab fa-github-square"
         url = "//github.com/hluebbering"
@@ -261,5 +270,4 @@ enableGitInfo = true
         icon = "fas fa-camera"
         url = "//vsco.co/hannahluebbering/gallery"
         title = "@hannahluebbering"
-
-
+        

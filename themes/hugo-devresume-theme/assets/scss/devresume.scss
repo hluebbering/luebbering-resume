@@ -144,6 +144,7 @@ a.resume-link {
 .resume-main {
 	.item-title {
 		font-size: 1rem;
+		margin-bottom:0.35px;
 	}
 
    .item-meta {
@@ -151,6 +152,12 @@ a.resume-link {
    }
    .item-content {
 		font-size: 0.875rem;
+		
+		
+	}
+	.item-degree {
+		font-size: 0.875rem;
+		font-weight: 400;
 	}
 }
 
@@ -161,9 +168,32 @@ a.resume-link {
 	}
 	.item-title {
 		font-size: 1rem;
+		margin-bottom:0.5px;
 	}
+	.item-subtitle {
+		font-size: 0.75rem;
+		margin-bottom:0.5px;
+		margin-left: 3px;
+		font-weight: 500;
+	}
+	.item-meta {
+	   font-size: 0.75rem;
+   }
+   .item-degree {
+		font-size: 0.875rem;
+		font-weight: 400;
+	}
+	
+	.item-content {
+		font-size: 0.75rem;
+		margin-left: -14px;
+		margin-top: -6px;
+	}
+	
 
 }
+
+
 
 
 .resume-education-list, .resume-awards-list {
@@ -173,6 +203,11 @@ a.resume-link {
 
 .resume-degree-time-org, .resume-degree-time {
 	font-size: 0.75rem;
+}
+.resume-degree-list {
+	font-size: 0.7rem;
+	margin-left: 1px;
+	list-style: normal;
 }
 
 .resume-lang-list, .resume-interests-list {
