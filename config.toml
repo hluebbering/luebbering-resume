@@ -110,9 +110,9 @@ enableGitInfo = true
     [params.interests]
         enable = true
         [[params.interests.list]]
-        body = "Pump-Probe Microscopic Imaging of Solution Processed Cu2BaSnS4-xSex thin films; stable charge carrier."
-        date = "2021"
-        name = "PL and Pump-Probe Microscopy"
+        name = "Pump-Probe Microscopic Imaging of Solution Processed Cu2BaSnS4-xSex thin films; stable charge carrier."
+        #date = "2021"
+        date = "Hannah Luebbering, Ashkan Shafiee, Betul Teymur, Yongshin Kim, David B. Mitzi, Elham Ghadiri | 2021"
         
 
     
@@ -164,7 +164,7 @@ enableGitInfo = true
         [[params.experience.list.items]]
         details = "Tracked experimental results and analyzed data using MatLab and Excel."
         #[[params.experience.list.items]]
-        #details = "Listed as the first author of the journal publication entitled, Pump-Probe Diffuse Reflectance Microscopic Imaging of Solution Processed Cu_2BaSnS_{4-x}Se_x thin films; enhanced charge carrier lifetime."
+        #details = "Listed as the first author of the journal publication."
         
         [[params.experience.list]]
         title = "Concussion Research Assistant"
