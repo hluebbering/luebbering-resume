@@ -26,41 +26,37 @@ enableGitInfo = true
         [[params.contact.list]]
         icon = "fas fa-globe"
         url = "https://www.hannah-luebbering.com"
-        text = "Homepage"
-        [[params.contact.list]]
-        icon = "fas fa-laptop-code"
-        url = "https://dmds.lucymcgowan.com/authors/hannah-luebbering/"
-        text = "DM Data Science Lab"
+        text = "hannah-luebbering.com"
 
 
     [params.skills]
         enable = true
         [[params.skills.list]]
         [[params.skills.list.items]]
-        details = "Web Design using HTML and CSS"
+        details = "Graphing and Visualizations"
+        [[params.skills.list.items]]
+        details = "Visualizing Data with Tableau"
         [[params.skills.list.items]]
         details = "Mathematical Modeling"
         [[params.skills.list.items]]
         details = "Research and Technology"
         [[params.skills.list.items]]
-        details = "Data Science"
-        [[params.skills.list.items]]
-        details = "Complex Problem Solving"
-        [[params.skills.list.items]]
-        details = "Technical Writing"
+        details = "Statistical Analysis"
 
         #[[params.skills.list]]
         #title = "Programming Languages"
         [[params.skills.list.items]]
         details = "R"
         [[params.skills.list.items]]
-        details = "MatLab"
-        [[params.skills.list.items]]
         details = "Python"
         [[params.skills.list.items]]
         details = "Java"
         [[params.skills.list.items]]
-        details = "LaTex"
+        details = "SQL"
+        [[params.skills.list.items]]
+        details = "MatLab"
+        [[params.skills.list.items]]
+        details = "SAS"
         
 
     [params.education]
@@ -69,7 +65,7 @@ enableGitInfo = true
         degree = "BS in Applied Mathematics, Minor in Computer Science"
         university = "Wake Forest University"
         location = "Winston Salem, NC | 2017 - 2021"
-        #gpa = "GPA: 3.471"
+        gpa = "GPA: 3.471"
         [[params.education.list.items]]
         details = "Association for Women in Mathematics"
         [[params.education.list.items]]
@@ -110,19 +106,14 @@ enableGitInfo = true
         name = "English"
         level = "Native"
 
-
+    ## PUBLIFICATIONS
     [params.interests]
         enable = true
         [[params.interests.list]]
-        name = "Running"
-        [[params.interests.list]]
-        name = "Skiing and hiking in Telluride"
-        [[params.interests.list]]
-        name = "Web Design"
-        [[params.interests.list]]
-        name = "Architecture"
-        [[params.interests.list]]
-        name = "Photography"
+        body = "Pump-Probe Microscopic Imaging of Solution Processed Cu2BaSnS4-xSex thin films; stable charge carrier."
+        date = "2021"
+        name = "PL and Pump-Probe Microscopy"
+        
 
     
     [params.awards]
@@ -131,14 +122,13 @@ enableGitInfo = true
         name = "IT Automation with Python"
         body = "Google Professional Certificate"
         [[params.awards.list]]
-        name = "Intro to Machine Learning"
-        body = "Kaggle Learning"
-
+        name = "AWS Fundamentals: Going Cloud-Native"
+        body = "Amazon Web Services"
         
     [params.summary]
         enable = true
-        text = "Applied Mathematics and Computer Science student at Wake Forest University seeking a full or part-time position in advance of attending graduate school. Motivated to learn, grow, and excel in technology. Proven success working within fast-paced, collaborative settings."
-
+        #text = "Applied Mathematics and Computer Science student at Wake Forest University seeking a full or part-time position in advance of attending graduate school. A dedicated, hardworking student, eager to accept new challenges, and always strives to keep learning. Motivated to learn, grow, and excel in data analysis, mathematics, and science-related fields. Proven success working in fast-paced and collaborative settings."
+        text = "Applied Mathematics and Computer Science student at Wake Forest University seeking a full or part-time position in advance of attending graduate school. Motivated to learn, grow, and excel in data analysis, mathematics, and science-related fields. Proven success working in challenging, fast-paced, and collaborative settings."
 
     [params.experience]
         enable = true
@@ -173,7 +163,9 @@ enableGitInfo = true
         details = "Conducted experiments and analyzed samples using UV-VIS spectroscopy, confocal microscopy, and Agilent software."
         [[params.experience.list.items]]
         details = "Tracked experimental results and analyzed data using MatLab and Excel."
-
+        #[[params.experience.list.items]]
+        #details = "Listed as the first author of the journal publication entitled, Pump-Probe Diffuse Reflectance Microscopic Imaging of Solution Processed Cu_2BaSnS_{4-x}Se_x thin films; enhanced charge carrier lifetime."
+        
         [[params.experience.list]]
         title = "Concussion Research Assistant"
         dates = "2018"
@@ -238,24 +230,9 @@ enableGitInfo = true
         company = "Wake Forest University"
         [[params.information.list.items]]
         details = "Led and participated in various programs and workshops to mentor students in math and science."
-        
-      
-        #[[params.information.list]]
-        #title = "Women in Computer Science"
-        #dates = "2018 - 2021"
-        #company = "Wake Forest University"
-        
-        #[[params.information.list]]
-        #title = "Kappa Kappa Gamma Sorority"
-        #dates = "2018 - 2021"
-        #company = "Wake Forest University"
-        
-        #[[params.information.list]]
-        #title = "Kansas City Running Club"
-        #dates = "2015 - 2019"
-        #company = "Kansas City, MO"
-    
- 
+       
+
+       
     [params.social]
         enable = true
         [[params.social.list]]
@@ -267,7 +244,7 @@ enableGitInfo = true
         url = "//www.linkedin.com/in/hannah-luebbering-99609818a/"
         title = "hannah-luebbering"
         [[params.social.list]]
-        icon = "fas fa-camera"
-        url = "//vsco.co/hannahluebbering/gallery"
-        title = "@hannahluebbering"
+        icon = "fas fa-laptop-code"
+        url = "https://dmds.lucymcgowan.com/authors/hannah-luebbering/"
+        title = "DM Data Science Lab"
         
