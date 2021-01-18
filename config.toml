@@ -14,7 +14,7 @@ enableGitInfo = true
         enable = true
         name = "Hannah Luebbering"
         tagline = "Applied Mathematics and Computer Science"
-        avatar = "avatar.png"
+        avatar = "avatar2.png"
 
     [params.contact]
         enable = true
