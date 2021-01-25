@@ -65,7 +65,7 @@ enableGitInfo = true
         degree = "BS in Applied Mathematics, Minor in Computer Science"
         university = "Wake Forest University"
         location = "Winston Salem, NC | 2017 - 2021"
-        gpa = "GPA: 3.471"
+        #gpa = "GPA: 3.471"
         [[params.education.list.items]]
         details = "Association for Women in Mathematics"
         [[params.education.list.items]]
